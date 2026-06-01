@@ -5,54 +5,108 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>$ISLA | Heartbreak to Horsepower</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700;800&family=Inter:wght@400;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body class="antialiased selection:bg-green-500 selection:text-black">
 
-    <nav class="fixed w-full z-50 top-0 glass-nav border-b border-white/5 py-4 px-6">
-        <div class="max-w-6xl mx-auto flex justify-between items-center">
-            <div class="text-2xl font-black tracking-tighter text-gradient">$ISLA</div>
-            <a href="YOUR_PUMPFUN_LINK" class="btn-glow bg-green-500 text-black px-6 py-2 rounded-lg font-bold text-sm uppercase">Buy $ISLA</a>
+    <!-- Professional HUD Navigation -->
+    <nav class="fixed top-0 w-full z-50 border-b border-white/10 bg-black/80 backdrop-blur-md px-8 py-4 flex justify-between items-center">
+        <div class="font-black text-2xl tracking-tighter text-green-400">ISLA TOKEN</div>
+        <div class="hidden md:flex space-x-8 text-[10px] uppercase tracking-[0.3em] font-bold text-slate-500">
+            <a href="#narrative" class="hover:text-green-400 transition">Incident Report</a>
+            <a href="#metrics" class="hover:text-green-400 transition">Target Metrics</a>
         </div>
+        <a href="YOUR_PUMPFUN_LINK" class="bg-green-500 text-black px-6 py-2 rounded-full font-black text-xs uppercase btn-glow transition">Buy $ISLA</a>
     </nav>
 
-    <header class="pt-40 pb-20 px-6 text-center hero-gradient">
-        <div class="max-w-4xl mx-auto">
-            <h1 class="text-6xl md:text-8xl font-extrabold mb-6 leading-tight tracking-tighter uppercase">
-                Heartbreak to <br><span class="text-gradient">Horsepower.</span>
-            </h1>
-            <div class="relative group inline-block mb-12">
-                <img src="https://i.linkyhost.com/your-image.png" alt="$ISLA Logo" class="w-64 h-64 rounded-3xl glass-card animate-float p-4 mx-auto">
-            </div>
-            <div class="flex justify-center gap-4">
-                <a href="YOUR_PUMPFUN_LINK" class="btn-glow px-10 py-5 bg-white text-black font-black rounded-xl text-lg uppercase tracking-widest">Join the Grudge</a>
+    <!-- Hero Section -->
+    <section class="min-h-screen flex flex-col justify-center items-center text-center px-6 pt-20 relative overflow-hidden">
+        <div class="inline-block px-3 py-1 mb-6 border border-green-500/20 bg-green-500/5 rounded-full text-[10px] font-bold text-green-400 uppercase tracking-widest">
+            Protocol: Spite-Driven Development
+        </div>
+        <h1 class="text-7xl md:text-[120px] font-black leading-none tracking-tighter mb-4 italic text-gradient">
+            $ISLA
+        </h1>
+        <p class="text-slate-400 text-lg md:text-xl max-w-2xl mx-auto font-light leading-relaxed mb-12">
+            She traded a future BIS leader for a swamp-reptile in a base-model M4. 
+            We don't build apps; we build retribution.
+        </p>
+        
+        <!-- Perfect Circular Masked Logo Frame -->
+        <div class="flex justify-center my-12">
+            <div class="logo-wrapper animate-float">
+                <div class="logo-pulse"></div>
+                <img src="cocodilelogo.png" alt="$ISLA Logo" class="w-64 h-64 md:w-80 md:h-80 rounded-full object-cover relative z-10">
             </div>
         </div>
-    </header>
 
-    <section id="story" class="py-24 px-6 border-y border-white/5 bg-white/[0.02]">
-        <div class="max-w-4xl mx-auto">
-            <h2 class="text-4xl font-black mb-12 uppercase italic text-green-400">The Full Grudge 🐊</h2>
-            <div class="space-y-8 text-xl text-slate-300 leading-relaxed">
-                <p>While I was grinding through late-night system architectures and database schemas as a Business Information Systems student, she was looking for a shortcut to status[cite: 1].</p>
-                
-                <p>She found it in a guy who thinks he’s a king because he has a 3-room apartment and a base-model BMW M4—a man whose side profile is a 1-to-1 match for a swamp reptile[cite: 1].</p>
-                
-                <div class="text-white font-bold border-l-4 border-green-500 pl-6 py-4 bg-green-500/5 rounded-r-lg">
-                    I named this coin $ISLA after her to turn that disrespect into a liquid asset[cite: 1]. I’m executing a protocol for a 4-room upgrade and a twin-turbo BMW M5 to prove that a student’s ambition will always outpace a reptile’s head start[cite: 1].
-                </div>
-                
-                <p>This isn't just a meme; it’s a mission to turn heartbreak into horsepower[cite: 1].</p>
-            </div>
+        <div class="mt-12">
+            <a href="YOUR_PUMPFUN_LINK" class="px-12 py-5 bg-white text-black font-black rounded-2xl text-sm uppercase tracking-widest hover:bg-green-400 transition">APE INTO REVENGE</a>
         </div>
     </section>
 
-    <footer class="py-24 text-center border-t border-white/5">
-        <div class="flex justify-center gap-12 font-bold text-slate-500 uppercase tracking-widest text-xs">
-            <a href="YOUR_X_LINK" class="hover:text-green-400 transition">Twitter</a>
-            <a href="YOUR_TELEGRAM_LINK" class="hover:text-green-400 transition">Telegram</a>
-            <a href="YOUR_PUMPFUN_LINK" class="hover:text-green-400 transition">Pump.fun</a>
+    <!-- The Full Grudge Section -->
+    <section id="narrative" class="py-32 px-6 max-w-7xl mx-auto">
+        <div class="grid grid-cols-1 md:grid-cols-12 gap-6">
+            
+            <!-- Large Story Card -->
+            <div class="md:col-span-7 glass-card p-12 relative overflow-hidden flex flex-col justify-center">
+                <h3 class="text-green-400 font-bold text-xs uppercase tracking-widest mb-8">// THE INCIDENT REPORT</h3>
+                <div class="space-y-8 text-2xl font-light leading-snug italic">
+                    <p>"I was a Business Information Systems student grinding late-night code while she was out looking for status. She left me and married another guy just because I was a 'broke student'."</p>
+                    <p>"Her new husband thinks he’s a king with a <span class="text-white font-bold">3-room apartment</span> and a base-model <span class="text-white font-bold">BMW M4</span>. I named this coin after her, and the logo is a <span class="text-green-400 font-bold">Crocodile</span>—because his side profile is a 1-to-1 match for a swamp reptile."</p>
+                </div>
+            </div>
+
+            <!-- Target Acquisition Box (Packed & Full Layout) -->
+            <div id="metrics" class="md:col-span-5 glass-card p-12 bg-green-500 text-black border-none flex flex-col justify-between">
+                <h3 class="font-black text-xs uppercase tracking-widest mb-6 opacity-80">TARGET ACQUISITION</h3>
+                <div class="space-y-10 my-auto">
+                    <div class="border-b border-black/10 pb-4">
+                        <div class="text-[10px] font-black uppercase opacity-60 mb-1">Status Asset</div>
+                        <div class="text-5xl font-black italic tracking-tighter">4 ROOMS Apartment</div>
+                    </div>
+                    <div class="border-b border-black/10 pb-4">
+                        <div class="text-[10px] font-black uppercase opacity-60 mb-1">High-Torque Asset</div>
+                        <div class="text-5xl font-black italic tracking-tighter">BMW M5</div>
+                    </div>
+                    <div>
+                        <div class="text-[10px] font-black uppercase opacity-60 mb-1">Current Status</div>
+                        <div class="text-2xl font-black uppercase tracking-tight">DEPLOYING SPITE</div>
+                    </div>
+                </div>
+                <p class="text-[11px] font-bold uppercase mt-8 pt-6 border-t border-black/10">
+                    Objective: Show them exactly what they missed.
+                </p>
+            </div>
+
+            <!-- Professional Opponent Bar -->
+            <div class="md:col-span-12 glass-card p-8 flex flex-col md:flex-row justify-between items-center gap-8 bg-gradient-to-r from-emerald-900/10 to-transparent border-emerald-500/20">
+                <div class="text-xs font-black uppercase tracking-[0.4em] text-emerald-500">The Opponent (The Reptile)</div>
+                <div class="flex flex-wrap justify-center gap-12 font-mono text-[10px] uppercase">
+                    <div class="text-slate-400">Residence: <span class="text-emerald-400">3 Rooms (Mid)</span></div>
+                    <div class="text-slate-400">Vehicle: <span class="text-emerald-400">M4 (Base Model)</span></div>
+                    <div class="text-slate-400">Evolution: <span class="text-emerald-400">Swamp Reptile</span></div>
+                    <div class="text-slate-400">Status: <span class="text-emerald-500">NGMI</span></div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer Terminal -->
+    <footer class="py-24 border-t border-white/10 text-center">
+        <div class="max-w-2xl mx-auto px-6">
+            <h4 class="text-2xl font-black italic mb-8 uppercase">Turning Heartbreak into <span class="text-green-500">Horsepower</span></h4>
+            <div class="flex justify-center gap-12 text-[10px] font-bold uppercase tracking-[0.3em] text-slate-500">
+                <a href="YOUR_TELEGRAM_LINK" class="hover:text-white transition">Telegram</a>
+                <a href="YOUR_X_LINK" class="hover:text-white transition">X.com / Twitter</a>
+                <a href="YOUR_PUMPFUN_LINK" class="hover:text-white transition">Pump.fun</a>
+            </div>
+            <p class="mt-16 text-[9px] text-slate-700 uppercase tracking-widest leading-loose">
+                Developed by BIS Student // Spite Engine v1.0 // Community project with zero binding security framework.
+            </p>
         </div>
     </footer>
 
